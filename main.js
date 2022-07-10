@@ -4,7 +4,7 @@ var msg = prompt("Message to HTTP server");
 
 function attack() {  
 
-    str dn = 0
+   int dn = 0
 	
 	
 	
