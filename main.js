@@ -9,7 +9,7 @@ function attack() {
 	
 	
    dn = dn + 1
-   fetch(target)
+   fetch(target);
    document.body.innerHTML= dn;
    
 
